@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/alibek_yessekey/Documents/Claude Architect cert/uigen -maxdepth 3 -type d -not -path */node_modules/* -not -path */.next/*)",
+      "Bash(node -e \":*)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"make a card\"\"\"\",\"\"\"\"id\"\"\"\":\"\"\"\"1\"\"\"\"}],\"\"\"\"files\"\"\"\":{}}' --max-time 15)",
+      "Bash(curl -s -X POST http://localhost:3000/api/chat -H \"Content-Type: application/json\" -d '{\"\"\"\"messages\"\"\"\":[{\"\"\"\"role\"\"\"\":\"\"\"\"user\"\"\"\",\"\"\"\"content\"\"\"\":\"\"\"\"make a card\"\"\"\",\"\"\"\"id\"\"\"\":\"\"\"\"1\"\"\"\"}],\"\"\"\"files\"\"\"\":{}}' --max-time 15 -v)",
+      "Bash(brew upgrade:*)",
+      "Bash(npm run:*)",
+      "Bash(brew install:*)"
+    ]
+  }
+}
